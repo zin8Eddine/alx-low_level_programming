@@ -1,5 +1,10 @@
 #include "main.h"
 
+/**
+ * print_alphabet
+ * 
+ * Return: alpahabet in lowerCase
+ */
 void print_alphabet(void)
 {
         int c;
