@@ -13,10 +13,10 @@ int main(void)
 	i = 97;
 	while (i < 123)
 	{
-	    putchar(i);
-	    i++;
+		putchar(i);
+		i++;
 	}
-	printf("\n");
+	putchar('\n');
 
 	return (0);
 }
