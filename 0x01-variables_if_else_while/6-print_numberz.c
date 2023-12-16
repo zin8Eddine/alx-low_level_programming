@@ -11,7 +11,7 @@ int main(void)
 	unsigned short int i;
 
 	i = 0;
-	while (i < 11)
+	while (i < 10)
 	{
 		putchar((i % 10) + '0');
 		i++;
