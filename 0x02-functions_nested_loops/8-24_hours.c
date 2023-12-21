@@ -9,12 +9,14 @@ void jack_bauer(void)
 	int num2;
 	int num3;
 	int num4;
+	int max_iterations;
 
 	num1 = 0;
 	while (num1 < 3)
 	{
 		num2 = 0;
-		while (num2 < 4)
+		max_iterations = num1 == 2 ? 5 : 10;
+		while (num2 < max_iterations)
 		{
 			num3 = 0;
 			while (num3 < 6)
