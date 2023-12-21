@@ -24,8 +24,11 @@ void times_table(void)
 			}
 			else
 			{
-				_putchar(' ');
-				_putchar(' ');
+				if (num2 > 0)
+				{
+					_putchar(' ');
+					_putchar(' ');
+				}
 				_putchar((result) + '0');
 			}
 			if (num2 != 9)
