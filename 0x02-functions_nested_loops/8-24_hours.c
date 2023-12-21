@@ -15,7 +15,7 @@ void jack_bauer(void)
 	while (num1 < 3)
 	{
 		num2 = 0;
-		max_iterations = num1 == 2 ? 5 : 10;
+		max_iterations = num1 == 2 ? 4 : 10;
 		while (num2 < max_iterations)
 		{
 			num3 = 0;
